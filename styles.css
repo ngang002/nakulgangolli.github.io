@@ -28,6 +28,10 @@ header h1 {
     font-size: 2.5em;
 }
 
+contact {
+    line-height: 1.5em;
+}
+
 header .title {
     font-size: 1.2em;
     font-weight: 300;
@@ -273,7 +277,6 @@ button:hover {
 
 
 
-
 /* Skills section */
 #skills {
     padding: 40px 20px;
@@ -286,7 +289,21 @@ button:hover {
     margin-bottom: 20px;
 }
 
-/* Container for skill cards */
+/* Skills category section */
+.skills-category {
+    margin-bottom: 30px;
+}
+
+.skills-category h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Main skill container */
 .skills-container {
     display: flex;
     flex-wrap: wrap;
@@ -296,9 +313,9 @@ button:hover {
     margin: 0 auto;
 }
 
-/* Individual skill card */
+/* Skill card */
 .skill-card {
-    width: 120px; /* Adjust size as needed */
+    width: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -312,12 +329,12 @@ button:hover {
 }
 
 .skill-card:hover {
-    transform: scale(1.1); /* Slight scaling effect on hover */
+    transform: scale(1.05);
 }
 
 /* Skill icon */
 .skill-icon {
-    width: 50px; /* Set icon size */
+    width: 50px;
     height: auto;
     margin-bottom: 10px;
 }
@@ -327,4 +344,27 @@ button:hover {
     font-size: 1em;
     font-weight: bold;
     color: #333;
+}
+
+/* Sub-skills container, hidden by default */
+.sub-skills-container {
+    display: none;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+/* Reveal sub-skills when hovering over the Python card */
+.python-card:hover .sub-skills-container {
+    display: flex;
+}
+
+/* Style for individual sub-skill cards */
+.sub-skills-container .skill-card {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #eee;
+    box-shadow: none;
+    transform: none;
 }
