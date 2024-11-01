@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
         { date: "June 2018", description: "Graduated from Rutgers with a BS in Astrophysics and Minors in Computer Science and Mathematics" },
         { date: "Summer 2017", description: "Research Experience for Undergraduate" },
         { date: "2015 - 2018", description: "Research assistant for Eric Gawiser at Rutgers University" },
-        { date: "2014", description: "Studied abroad in Germany" },
     ];
 
     // Function to generate timeline items
