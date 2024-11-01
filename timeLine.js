@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Array of timeline events
     const timelineEvents = [
         { date: "2018 - Present", description: "Graduate Student at University of California, Riverside (UCR)" },
-        { date: "Winter 2021", description: "Graduate Research Mentor Fellow at UCR" },
+        { date: "Summer 2022", description: "Graduate Research Mentor Fellow at UCR" },
         { date: "Winter 2021", description: "Science 2 Policy Certificate" },
         { date: "September 2018", description: "Arrived at UCR" },
         { date: "June 2018", description: "Graduated from Rutgers with a BS in Astrophysics and Minors in Computer Science and Mathematics" },
