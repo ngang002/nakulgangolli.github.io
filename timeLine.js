@@ -4,9 +4,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Array of timeline events
     const timelineEvents = [
-        { date: "2020 - Present", description: "Researcher at XYZ University" },
-        { date: "2018 - 2020", description: "Graduate Student at ABC University" },
-        { date: "2015 - 2018", description: "Intern at DEF Corporation" },
+        { date: "2018 - Present", description: "Graduate Student at University of California, Riverside (UCR)" },
+        { date: "Winter 2021", description: "Graduate Research Mentor Fellow at UCR" },
+        { date: "Winter 2021", description: "Science 2 Policy Certificate" },
+        { date: "September 2018", description: "Arrived at UCR" },
+        { date: "June 2018", description: "Graduated from Rutgers with a BS in Astrophysics and Minors in Computer Science and Mathematics" },
+        { date: "Summer 2017", description: "Research Experience for Undergraduate" },
+        { date: "2015 - 2018", description: "Research assistant for Eric Gawiser at Rutgers University" },
         { date: "2014", description: "Studied abroad in Germany" },
     ];
 
